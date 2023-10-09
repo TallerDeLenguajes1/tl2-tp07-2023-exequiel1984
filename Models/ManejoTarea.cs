@@ -39,5 +39,15 @@ namespace Practico7
             accesoADatos.Guardar(listaTareas);
             return auxTarea;
         }
+
+        public List<Tarea> GetTareas(){
+            return accesoADatos.Obtener();
+        }
+
+        public List<Tarea> GetTareasCompletadas(){
+            List<Tarea> listaTareas = accesoADatos.Obtener();
+            var tareasCompletadas = listaTareas.FindAll(t => t.Estado == Estados.Completada);
+            return tareasCompletadas;
+        }
     }
 }

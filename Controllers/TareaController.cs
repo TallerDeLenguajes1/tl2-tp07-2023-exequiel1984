@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Http.HttpResults;
 using Microsoft.AspNetCore.Mvc;
 using Practico7;
 namespace Practico7.Controllers;
@@ -52,5 +53,19 @@ public class TareaController : ControllerBase
             return BadRequest();
         else
             return auxTarea;
+    }
+
+    [HttpGet]
+    [Route("GetTareas")]
+    public ActionResult<List<Tarea>> GetTareas()
+    {
+        return Ok(manejoTarea.GetTareas());
+    }
+
+    [HttpGet]
+    [Route("GetTareasCompletadas")]
+    public ActionResult<List<Tarea>> GetTareasCompletadas()
+    {
+        return Ok(manejoTarea.GetTareasCompletadas());
     }
 }

@@ -65,3 +65,4 @@ C:\Users\Alumno\Desktop\exequiel\tl2-tp07-2023-exequiel1984\obj\Debug\net7.0\ref
 C:\Users\Alumno\Desktop\exequiel\tl2-tp07-2023-exequiel1984\obj\Debug\net7.0\tl2-tp07-2023-exequiel1984.pdb
 C:\Users\Alumno\Desktop\exequiel\tl2-tp07-2023-exequiel1984\obj\Debug\net7.0\tl2-tp07-2023-exequiel1984.genruntimeconfig.cache
 C:\Users\Alumno\Desktop\exequiel\tl2-tp07-2023-exequiel1984\obj\Debug\net7.0\ref\tl2-tp07-2023-exequiel1984.dll
+D:\tl2-2023\tl2-tp07-2023-exequiel1984\bin\Debug\net7.0\ListaTareas.json

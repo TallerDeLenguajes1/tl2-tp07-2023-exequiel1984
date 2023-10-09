@@ -1,6 +1,6 @@
 namespace Practico7
 {
-    public enum estados
+    public enum Estados
     {
         Pendiente,
         EnProgreso,
@@ -13,12 +13,12 @@ namespace Practico7
         private int id;
         private string titulo;
         private string descripcion;
-        private estados estado;
+        private Estados estado;
 
         public int Id { get => id; set => id = value; }
         public string Titulo { get => titulo; set => titulo = value; }
         public string Descripcion { get => descripcion; set => descripcion = value; }
-        public estados Estado { get => estado; set => estado = value; }
+        public Estados Estado { get => estado; set => estado = value; }
         
     }
 }

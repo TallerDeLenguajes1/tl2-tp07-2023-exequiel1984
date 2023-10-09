@@ -1,17 +1,1 @@
-[
-    {
-        "Id": 2,
-        "Titulo": "tarea1",
-        "Descripcion": "string"
-    },
-    {
-        "Id": 3,
-        "Titulo": "tarea1",
-        "Descripcion": "string"
-    },
-    {
-        "Id": 4,
-        "Titulo": "tarea4",
-        "Descripcion": "actualizada"
-    }
-]
+[{"Id":2,"Titulo":"tarea1","Descripcion":"string","Estado":0},{"Id":3,"Titulo":"string","Descripcion":"string","Estado":2},{"Id":4,"Titulo":"string","Descripcion":"string","Estado":2}]
